@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="KAZUE HANADA — Portfolio / Selected works" />
+    <title>KAZUE HANADA — Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "nja7poc",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a !== "complete" && a !== "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <main>
+      <section class="top" aria-label="Portfolio introduction">
+        <div class="top__inner">
+          <p class="top__eyebrow" aria-label="Portfolio / Selected works">
+            <span class="typing-text">Portfolio / Selected works</span><span class="typing-cursor" aria-hidden="true"></span>
+          </p>
+
+          <div class="top__content">
+            <div class="top__main">
+              <h1 class="top__title">
+                <span>KAZUE</span>
+                <span>HANADA</span>
+              </h1>
+
+              <div class="top__image-stage" aria-label="Selected works">
+                <figure class="top__image-frame top__image-frame--01">
+                  <img
+                    src="assets/images/topImg01.jpg"
+                    alt="2026 Fall &amp; Winter brand sneakers"
+                    width="420"
+                    height="525"
+                  />
+                </figure>
+                <figure class="top__image-frame top__image-frame--02">
+                  <img
+                    src="assets/images/toImg02.webp"
+                    alt="Fashion editorial collage"
+                    width="1080"
+                    height="1350"
+                  />
+                </figure>
+                <figure class="top__image-frame top__image-frame--03">
+                  <img
+                    src="assets/images/topImg03.webp"
+                    alt="Travel fashion editorial collage"
+                    width="1080"
+                    height="1350"
+                  />
+                </figure>
+                <figure class="top__image-frame top__image-frame--04">
+                  <img
+                    src="assets/images/topImg04.jpg"
+                    alt="2026 Fall &amp; Winter fashion trend guide"
+                    width="1500"
+                    height="1876"
+                  />
+                </figure>
+              </div>
+
+              <div class="top__location" aria-label="Location: Tokyo, Japan">
+                <span>Tokyo,</span>
+                <span>Japan</span>
+              </div>
+            </div>
+
+            <div class="top__roles" aria-label="Roles">
+              <span>( Web Designer )</span>
+              <span>( Visual Designer )</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="approach" aria-labelledby="approach-title">
+        <div class="approach__inner">
+          <p class="approach__label approach__reveal">Approach</p>
+
+          <div class="approach__content">
+            <h2 id="approach-title" class="approach__title approach__reveal">
+              デザインと<br class="pc_hid">ビジュアルの力で、<br>ブランドの空気を<br class="pc_hid">編集する。
+            </h2>
+
+            <p class="approach__description approach__reveal">
+              ファッションとECを中心に、Web、グラフィック、写真・動画まで。情報を整理しながら、見る人の感覚に残る体験をつくります。
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
